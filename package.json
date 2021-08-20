@@ -1,0 +1,59 @@
+{
+  "name": "react-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config ./webpack.dev.config.ts",
+    "build:prod": "webpack --config ./webpack.config.ts --mode production",
+    "build:dll": "webpack --config ./webpack.dll.config.ts --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertMukarsel/react-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbertMukarsel/react-example/issues"
+  },
+  "homepage": "https://github.com/AlbertMukarsel/react-example#readme",
+  "dependencies": {
+    "bootstrap": "5.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.2.0",
+    "ts-node": "10.2.1",
+    "typescript": "4.3.5",
+    "webpack": "5.50.0",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/plugin-transform-runtime": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
+    "@types/css-minimizer-webpack-plugin": "^3.0.2",
+    "@types/mini-css-extract-plugin": "2.2.0",
+    "@types/react": "^17.0.18",
+    "@types/react-dom": "^17.0.9",
+    "@types/terser-webpack-plugin": "^5.0.4",
+    "add-asset-html-webpack-plugin": "3.2.0",
+    "babel-loader": "8.2.2",
+    "clean-webpack-plugin": "4.0.0-alpha.0",
+    "css-loader": "6.2.0",
+    "css-minimizer-webpack-plugin": "3.0.2",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "5.3.2",
+    "mini-css-extract-plugin": "2.2.0",
+    "source-map-loader": "3.0.0",
+    "style-loader": "3.2.1",
+    "terser-webpack-plugin": "5.1.4",
+    "ts-loader": "9.2.5",
+    "url-loader": "4.1.1"
+  }
+}
